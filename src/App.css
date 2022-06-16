@@ -1,0 +1,6 @@
+html {
+  background-color: rgb(7, 7, 7);;
+}
+html.dark {
+  background-color: rgb(7, 7, 7);
+}
