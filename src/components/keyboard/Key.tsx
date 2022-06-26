@@ -26,7 +26,7 @@ export const Key = ({
   const isHighContrast = getStoredIsHighContrastMode()
 
   const classes = classnames(
-    'flex items-center justify-center rounded mx-0.5 text-xs font-bold cursor-pointer select-none text-white dark:text-white',
+    'flex items-center justify-center rounded mx-0.5 text-xl font-medium cursor-pointer select-none text-white dark:text-white',
     {
       'transition ease-in-out': isRevealing,
       'bg-slate-200 bg-slate-600 dark:bg-slate-600 hover:bg-slate-300 active:bg-slate-400':
